@@ -1,0 +1,5 @@
+file:///proyectos/CRUDADC2/src/controllers/students.js {"mtime":1611804552840,"ctime":1611804552840,"size":0,"etag":"36ckpb3f90","orphaned":false}
+const express = require ('express');
+const router = express.Router();
+
+module.exports = router;

@@ -1,0 +1,154 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /proyectos/api-mysql-paul
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/proyectos/api-mysql-paul/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :package.json
+> git ls-files --stage -- /proyectos/api-mysql-paul/package.json
+> git cat-file -s 5bc3bc4858e47491b29e3bed2e661173b7033867
+> git show --textconv :package-lock.json
+> git ls-files --stage -- /proyectos/api-mysql-paul/package-lock.json
+> git cat-file -s 3221945a1aee5623e22dd9776fa3fc71b7c8327e
+> git show --textconv :package.json
+> git ls-files --stage -- /proyectos/api-mysql-paul/package.json
+> git cat-file -s 5bc3bc4858e47491b29e3bed2e661173b7033867
+> git show --textconv :.gitignore
+> git ls-files --stage -- /proyectos/api-mysql-paul/.gitignore
+> git cat-file -s 1dcef2d9f2db74bf13c54f973f40239e00717423
+> git show --textconv :.env.example
+> git ls-files --stage -- /proyectos/api-mysql-paul/.env.example
+> git cat-file -s 20aa64371a75d55c4d1b9f4295019c812603ca7d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/controllers/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/controllers/students.js
+> git cat-file -s 00ef87ec8bd614b7e14aa6d0741f5a4e0f79da9d
+> git check-ignore -v -z --stdin
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git check-ignore -v -z --stdin
+> git show --textconv :src/routes/index.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/index.js
+> git cat-file -s e71361a1d868d10a49b8d178dee879873e333f9b
+> git show --textconv :src/routes/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/students.js
+> git cat-file -s f75a1ac88bbe78fc7fbd6a96cfb3bc3de2e10639
+> git check-ignore -v -z --stdin
+> git show --textconv :src/tests/students.test.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/tests/students.test.js
+> git cat-file -s 21bf5de4493be3233d0623dffd2ddf3765f931fb
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
+> git show --textconv :src/swagger.json
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/swagger.json
+> git cat-file -s 53607b7b6b9e730516d9c8c3a65e5a83df249e71
+> git show --textconv :.env.example
+> git ls-files --stage -- /proyectos/api-mysql-paul/.env.example
+> git cat-file -s 20aa64371a75d55c4d1b9f4295019c812603ca7d
+> git show --textconv :.gitignore
+> git ls-files --stage -- /proyectos/api-mysql-paul/.gitignore
+> git cat-file -s 1dcef2d9f2db74bf13c54f973f40239e00717423
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git show --textconv :src/controllers/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/controllers/students.js
+> git cat-file -s 00ef87ec8bd614b7e14aa6d0741f5a4e0f79da9d
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :.env.example
+> git ls-files --stage -- /proyectos/api-mysql-paul/.env.example
+> git cat-file -s 20aa64371a75d55c4d1b9f4295019c812603ca7d
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git show --textconv :.env.example
+> git ls-files --stage -- /proyectos/api-mysql-paul/.env.example
+> git cat-file -s 20aa64371a75d55c4d1b9f4295019c812603ca7d
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
+> git show --textconv :package.json
+> git ls-files --stage -- /proyectos/api-mysql-paul/package.json
+> git cat-file -s 5bc3bc4858e47491b29e3bed2e661173b7033867
+> git show --textconv :src/controllers/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/controllers/students.js
+> git cat-file -s 00ef87ec8bd614b7e14aa6d0741f5a4e0f79da9d
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git show --textconv :src/routes/index.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/index.js
+> git cat-file -s e71361a1d868d10a49b8d178dee879873e333f9b
+> git show --textconv :src/routes/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/students.js
+> git cat-file -s f75a1ac88bbe78fc7fbd6a96cfb3bc3de2e10639
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
+> git show --textconv :src/controllers/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/controllers/students.js
+> git cat-file -s 00ef87ec8bd614b7e14aa6d0741f5a4e0f79da9d
+> git show --textconv :.env.example
+> git ls-files --stage -- /proyectos/api-mysql-paul/.env.example
+> git cat-file -s 20aa64371a75d55c4d1b9f4295019c812603ca7d
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :src/tests/students.test.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/tests/students.test.js
+> git cat-file -s 21bf5de4493be3233d0623dffd2ddf3765f931fb
+> git show --textconv :src/routes/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/students.js
+> git cat-file -s f75a1ac88bbe78fc7fbd6a96cfb3bc3de2e10639
+> git show --textconv :src/routes/index.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/index.js
+> git cat-file -s e71361a1d868d10a49b8d178dee879873e333f9b
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git show --textconv :src/controllers/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/controllers/students.js
+> git cat-file -s 00ef87ec8bd614b7e14aa6d0741f5a4e0f79da9d
+> git show --textconv :src/database/connection.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/database/connection.js
+> git cat-file -s efba7767bc19907e470d0f6882c5df19e58978b7
+> git show --textconv :src/routes/index.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/index.js
+> git cat-file -s e71361a1d868d10a49b8d178dee879873e333f9b
+> git show --textconv :src/routes/students.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/routes/students.js
+> git cat-file -s f75a1ac88bbe78fc7fbd6a96cfb3bc3de2e10639
+> git show --textconv :src/app.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/app.js
+> git cat-file -s b336dc233c6f30a15ad58a1ee23bce6b163c9d8c
+> git show --textconv :src/server.js
+> git ls-files --stage -- /proyectos/api-mysql-paul/src/server.js
+> git cat-file -s 24819446d3dc8ce9add1d004982649df39867fb7
